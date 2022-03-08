@@ -1,0 +1,68 @@
+College Management Database
+Tables :
+		admin:
+				adminid		 int(primary key autincrement);
+				username	 varchar(30);  
+				password	 varchar(10)
+		student:
+				sid          int(primary key autoincrement)
+				student_name varchar (30)
+				father_name  varchar (30)
+				gender 		 enum('male',female)
+				address		 varchar(50)
+				phone_number int
+				city		 varchar(30)
+				state		 varchar(30)
+				email		 varchar(50)
+				status		 enum('active','inactive')
+				username	 varchar(20)
+				password	 varchar(10)
+				dob
+				status
+		course:
+				cid			 int(primary key autoincrement)
+				course_name	 varchar(30) 
+				course_fees int
+				duration	 varchar(20)
+				status		 enum('active','inactive')
+
+		fees:
+				fid			 int(primary key autoincrement)
+				rid			 int
+				amount		 int
+				date_of_deposit date
+
+
+		registration :
+
+				rid 	(int primary key auto increment)
+				sid		(int)
+				cid		(int)
+				registration_date
+				status (enum 'complete','active','pending')
+				
+		faculty:
+				faculty_id	 int(primary key autoincrement)  
+				faculty_name		 varchar(30)
+				gender		 enum('male','female')
+				education	 varchar(30)
+				city		 varchar(30)		
+				state		 varchar(30)
+				country		 varchar(30)
+				email		 varchar(20)
+				status 		 enum('active','inactive')
+				username	 varchar(20)
+				password	 varchar(10)
+
+				
+		batch:
+				bid			 int(primary key autoincrement) 
+				batch_name	 varchar(30)
+				faculty_id 	 int
+				sid			 int
+				start_time	 varchar(20)
+				end_time	 varchar(20)
+				duration	 int
+				status		 enum('inprogress','completed','hold',inactive)
+				
+			

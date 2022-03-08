@@ -1,0 +1,12 @@
+P_ID	P_Type	P_Age	P_Name		P_Gender	P_Dissease	P_Phone.No.	P_Address
+P101	Outdoor	23	Bhavya Goyal	M		Acrophonia	1234567890	Naya bazar
+P102	Indoor	23	Aman Goyal	M		Fever		2157443647	jasalmer,Rajasthan.
+P103	Indoor	34	Pulkit Verma	M		Polio		6578329123	Beware,Ajmer,Rajasthan.  
+P104	Indoor	23	Dikshu Goyal	M		Bone Injur	2147283947	Naya bazar,Ajmer.
+P105	Indoor	27	Bheeem Singh	M		Back Pain	9137483547	Diggi bazar,Ajmer.
+P106	Indoor	19	Lalit Dubey	M		Acrophobia	8147583647	Vaishali nagar,Ajmer.
+P107	Indoor	15	Nita Sharma	M		Pain		2147483647	Shastri nagar,Ajmer.	
+P107	Indoor	15	Nita Sharma	M		Pain		2147483647	Shastri nagar,Ajmer.	
+P108	Outdoor	23	Kartik Kakani	M		Brain Cancer	2147483647	Nasirabad,Ajmer
+P109	Indoor	43	Deppak Jain	M		Back Pain	2147483647	Khjana gali
+P110	Indoor	21	Sidharth Jain	M		Back Pain	2147483647	Diggi bazar,ajmer.

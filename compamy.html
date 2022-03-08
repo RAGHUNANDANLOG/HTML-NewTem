@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Assignment1</title>
+		<link href="css/bootstrap.min.css" rel="stylesheet"/>
+		<script src="js/jquery.js"></script>
+		<script src="js/bootstrap.min.js"></script>		
+		
+			
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+		<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css"
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	
+		<style type="text/css">
+			body
+			{
+				font: 400 15px Lato, sans-serif;
+			}
+			.navbar
+			{
+				background: #f4511e;
+				font-size: 12px !important;
+				letter-spacing: 4px;
+				font-family: Montserrat;
+				border:0px;
+				
+			}
+			.navbar li a, .navbar-brand
+			{
+				color: white !important;
+			}
+			.navbar li a:hover
+			{ 
+				background: white !important;
+				color:#f4511e !important  ;
+			}
+			.jumbotron
+			{
+				background: #f4511e;
+				color: #fff;
+				padding: 100px !important;
+				font-family: Montserrat;
+				//border:5px solid black;
+			}
+			.container-fluid
+			{  
+				
+				padding: 60px;
+			}
+			h4 {
+			    font-size: 19px;
+			    line-height: 1.375em;
+			    color: #303030;
+			    font-weight: 400;
+			    margin-bottom: 30px;
+			  } 
+			
+			.logo {
+    			color: #f4511e;
+    			font-size: 200px;
+  			}
+  			h2 {
+    			font-size: 25px;
+    			text-transform: uppercase;
+    			color: #303030;
+   			 	font-weight: 600;
+   			 	margin-bottom: 30px;
+  			}
+  			.logo-small {
+    			color: #f4511e;
+    			font-size: 50px;
+  			}
+  			p
+  			{
+  				font-size: 15px;
+  				color: gray;
+  			}
+  			.porttext
+  			{
+  				padding:10px;
+  				background: #fff;
+  			}
+  			.aslide
+  			{
+  				background:#f6f6f6 !important;
+  			}
+ 			.carousel-indicators li
+ 			{
+ 				border:1px solid #f4511e;
+ 			}
+ 			.carousel-indicators li.active
+ 			{
+ 				background:#f4511e; 
+ 			}
+  			.panel
+  			{
+  				border: 1px solid #f4511e;
+  				border-radius:0 !important;
+
+  			}
+  			.phead
+  			{
+  				background: #f4511e !important; 
+  				border-radius:0 !important;
+  				padding: 20px;
+  				color: #fff !important;
+  			}
+  			.pfooter
+  			{
+  				background:#fff;
+  			}
+  			.lgbutton
+  			{
+  				background: #f4511e;
+  				border: 0px;
+  			}
+  			.lgbutton:hover
+  			{
+  				background: #fff;
+  				color:#f4511e;
+  				border: 1px solid #f4511e;
+  			}
+  			.ptag
+  			{
+  				font-size: 30px;
+  			}
+
+		</style>
+	</head>
+	<body id="bpage">
+		<nav class="navbar navbar-default navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar1">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a href="#bpage" class="navbar-brand">Logo</a>
+				</div>
+				<div class="collapse navbar-collapse" id="navbar1">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#about">ABOUT</a></li>
+						<li><a href="#services">SERVICES</a></li>
+						<li><a href="#portfolio">PORTFOLIO</a></li>
+        				<li><a href="#pricing">PRICING</a></li>
+        				<li><a href="#contact">CONTACT</a></li>
+					</ul>
+				</div>
+			</div>	
+		</nav>
+			<div  class="jumbotron text-center">
+				<h1>Company</h1> 
+	  			<p style="color: white;">We specialize in blablabla</p> 
+	  			<form>
+	  				<center>
+	  					<div class="row col-sx-6">
+		  					<div class="input-group col-md-6 col-lg-6 col-sm-6 col-sx-6">
+		  						<input type="email" name="email" class="form-control" placeholder="Email Address" required="">
+			  					<div class="input-group-btn">
+			  						<button type="submit" class="btn btn-danger">Subscribe</button>
+			  					</div>
+		  					</div>
+		  				</div>
+		  		</center>
+	  			</form>
+			</div>
+		<!--About Page -->
+		<div id="about" class="container-fluid">
+				<div class="col-sm-8">
+					<h2>About Company Page</h2><br>
+					<h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4><br><br>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+					<br><button class="btn btn-default btn-lg">Get in Touch</button>
+   				</div>
+   				<div class="col-md-4">
+      				<span class="glyphicon glyphicon-signal logo"></span>
+    			</div>
+		</div><br><br><br><br><br>
+		<div class="container-fluid" style="background:#f6f6f6;">
+			<div class="row">
+				<div class="col-md-4">
+					<span class="glyphicon glyphicon-globe logo"></span>
+				</div>
+				<div class="col-md-8"> 
+					<h2>Our Values</h2><br>
+					<h4><strong>MISSION:</strong> Our mission lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4><br>
+					<p><strong>VISION:</strong> Our vision Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- Services Page-->
+		<div id="services" class="container-fluid text-center" >
+			<h2>SERVICES</h2>
+			<h4>What we offer</h4><br>
+			<div class="row">
+				<div class="col-md-4">
+					<span class="glyphicon glyphicon-off logo-small"></span>
+					<h4>POWER</h4>
+					<p>Lorem ipsum dolor sit amet..</p>
+				</div>
+				<div class="col-md-4">
+					<span class="glyphicon glyphicon-heart logo-small"></span>
+					<h4>LOVE</h4>
+					<p>Lorem ipsum dolor sit amet..</p>
+				</div>
+				<div class="col-md-4">
+					<span class="glyphicon glyphicon-lock logo-small"></span>
+					<h4>JOB DONE</h4>
+					<p>Lorem ipsum dolor sit amet..</p>
+				</div>
+			</div>
+			<div class="row" style="padding-top: 70px;">
+				<div class="col-md-4">
+					<span class="glyphicon glyphicon-leaf logo-small"></span>
+					<h4>POWER</h4>
+					<p>Lorem ipsum dolor sit amet..</p>
+				</div>
+				<div class="col-md-4">
+					<span class="glyphicon glyphicon-certificate logo-small"></span>
+					<h4>CERTIFIED</h4>
+					<p>Lorem ipsum dolor sit amet..</p>
+				</div>
+				<div class="col-md-4">
+					<span class="glyphicon glyphicon-wrench logo-small"></span>
+					<h4>HARD WORK</h4>
+					<p>Lorem ipsum dolor sit amet..</p>
+				</div>
+			</div>
+		</div>
+
+	<!-- Portfolio page -->
+		<div id="portfolio" class="continer-fluid text-center" style="background:#f6f6f6; padding-top: 60px;">
+			<div class="container">
+				<h2>PORTFOLIO</h2><br>
+				<h4>What we have created</h4>
+				<div class="com-md-4 col-sm-4 col-lg-4 ">
+					<img src="image/paris.jpg" class="img-responsive">
+					<div class="porttext">
+						<p><strong>Paris</strong></p>
+						<p>Yes, we built Paris</p>
+					</div>
+				</div>
+				<div class="com-md-4 col-sm-4 col-gl-4 ">
+					<img src="image/newyork.jpg" class="img-responsive">
+					<div class="porttext">
+						<p><strong>New York</strong></p>
+						<p>We built New York</p>
+					</div>
+				</div>
+				<div class="com-md-4 col-sm-4 col-lg-4 ">
+					<img src="image/paris.jpg" class="img-responsive">
+					<div class="porttext">
+						<p><strong>Sen Francisco</strong></p>
+						<p>Yes, San Fran is ours</p>
+					</div>
+				</div>
+			</div><br><br>
+			<div class="container">
+				<h2>WHAT OUR CUSTOMERS SAY</h2>
+				 <div id="hello" class="carousel slide" data-ride="carousel" data-interval="2000">
+                <!--carousel indicators -->
+                    <ol class="carousel-indicators">
+                          <li data-target="#hello" data-slide-to="0" class="active"></li>
+                          <li data-target="#hello" data-slide-to="1"></li> 
+                          <li data-target="#hello" data-slide-to="2"></li>
+                    </ol>
+                <!--Wraper for slide-->
+                  <div class="carousel-inner">
+                      <div class="item active">
+                          <h4>"This company is the best. I am so happy with the result!"<br>Michael Roe, Vice President, Comment Box</h4><br> 
+                      </div>
+                      <div class="item">
+                          <h4>"One word... WOW!!"<br>John Doe, Salesman, Rep Inc</h4><br>  
+                      </div>
+                      <div class="item">
+                          <h4>"Could I... BE any more happy with this company?"<br>Chandler Bing, Actor, FriendsAlot</h4><br>  
+                      </div>
+                  </div>
+
+                  <!--carousel conterol left and right-->
+                  <a href="#hello" class="left carousel-control aslide" data-slide="prev"><span class="glyphicon glyphicon-chevron-left" style="color: #f4511e;"></span></a>
+
+                  <a href="#hello" class="right carousel-control aslide" data-slide="next"><span class="glyphicon glyphicon-chevron-right" style="color: #f4511e;"></span></a>
+              </div>
+			</div><br><br><br>
+		</div>
+
+		<!--PRICING PAGE START  -->
+		<div id="pricing" class="container-fluid text-center">
+			<div class="row">
+				<h2>PRICING</h2>
+				<h4>Choose a payment plan that works for you</h4>
+				<div class="col-md-4">
+					<div class="panel panel-default">
+						<div class="panel-heading phead">
+							<h1>Basic</h1>
+						</div>
+						<div class="panel-body">
+							<p><b>20</b> Loren</p><br>
+							<p><b>15</b> Ipsum</p><br>
+							<p><b>5</b> Dolor</p><br>
+							<p><b>2</b> Sit</p>
+							<p><b>Endless</b> Amet</p>
+						</div>
+						<div class="panel-footer pfooter">
+							<p class="ptag">$19</p>
+							<p>per month<p><br>
+							<button class="btn btn-danger btn-lg lgbutton">Sign Up</button>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="panel panel-default">
+						<div class="panel-heading phead">
+							<h1>Pro</h1>
+						</div>
+						<div class="panel-body">
+							<p><b>20</b> Loren</p><br>
+							<p><b>15</b> Ipsum</p><br>
+							<p><b>5</b> Dolor</p><br>
+							<p><b>2</b> Sit</p>
+							<p><b>Endless</b> Amet</p>
+						</div>
+						<div class="panel-footer pfooter">
+							<p class="ptag">$19</p>
+							<p>per month<p><br>
+							<button class="btn btn-danger btn-lg lgbutton">Sign Up</button>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="panel panel-default">
+						<div class="panel-heading phead">
+							<h1>Premium</h1>
+						</div>
+						<div class="panel-body">
+							<p><b>20</b> Loren</p><br>
+							<p><b>15</b> Ipsum</p><br>
+							<p><b>5</b> Dolor</p><br>
+							<p><b>2</b> Sit</p>
+							<p><b>Endless</b> Amet</p>
+						</div>
+						<div class="panel-footer pfooter">
+							<p class="ptag">$19</p>
+							<p>per month<p><br>
+							<button class="btn btn-danger btn-lg lgbutton">Sign Up</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="contact" class="container-fluid text-center" style="background:#f6f6f6;">
+			<h2>CONTACT</h2>
+			<div class="row text-left">
+				<div class="col-md-5">
+					<p>Contact us and we'll get back to you within 24 hours.</p><br>
+					<p><span class="glyphicon glyphicon-map-marker"></span> Chicago, US</p><br>
+					<p><span class="glyphicon glyphicon-phone"></span> +00 1515151515</p><br>
+					<p><span class="glyphicon glyphicon-envelope"></span>myemail@something.com</p>
+				</div>
+				<div class="col-md-7">
+					<form>
+						<div class="row">
+							<div class="form-group col-md-6">
+								<input type="text" name="name" placeholder="Name" class="form-control" required />
+							</div>
+							<div class="form-group col-md-6">
+								<input type="text" name="email" placeholder="Email" class="form-control" required />
+							</div>
+						</div>
+						<div class="row">
+							<div class="form-group col-md-12">
+								<textarea placeholder="Comment" class="form-control" rows="5" required></textarea>
+							</div>
+						</div>
+						<div class="row ">
+							<div class="col-md-12 form-group text-right">
+								<input type="submit" name="submit" class="btn btn-default" value="send">
+							</div>
+						</div>
+						
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid" style="padding:0px;">
+			<img src="image/map.jpg" class="img-responsive">	
+		</div><br>
+		<div class="continer-fluid text-center">
+			<a href="#bpage"><span class="glyphicon glyphicon-chevron-up " style="color: #f4511e;"></span></a><br><br>
+			<p>Bootstrap Theme Made By <b class="text-primary"> Dipak kumar</b></p>
+		</div>	
+
+	<script>
+			$(document).ready(function(e){
+				$("#one a").click(function(e){
+					if(this.hash!=" ")
+					{
+						var hash=this.hash;
+						alert("hello "+hash);
+						$("body").animate({						
+							scrollTop:$(hash).offset().top
+							},1000,function(){
+								window.location.hash=hash;
+							});
+						
+					}
+				});
+			});
+		</script>
+	</body>
+</html>

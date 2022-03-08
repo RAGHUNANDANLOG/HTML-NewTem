@@ -1,0 +1,59 @@
+Hospital management Database
+
+Tables 	:
+		
+		admin :
+				admin	(varchar 20)
+				password	(varchar 10)
+
+		staff :
+				sid (int primary key auto increment)
+				name	(varchar 30)
+				address 
+				email
+				contact
+				post {Compounder,doctor}
+				qulification
+				specialist_in
+				salary
+				username
+				password
+
+		patient :	
+
+				pid
+				name
+				date_of_birth
+				address
+				phone_number
+				email
+				deseas
+
+		appointment :
+					aid
+					patient_id
+					doctor_id
+					date
+					time
+
+		admit :
+
+				did
+				ward_number
+				room_type (general,vip,icu)
+				bed_number
+				date
+		ward
+			wid
+			ward_number (wardnumber likes : ward-1,ward-2)
+			number of bed (how many bed in this ward)
+			status (ablevel,notablevel)
+
+		bill :
+			bid
+			pid
+			amount
+			date
+
+
+				

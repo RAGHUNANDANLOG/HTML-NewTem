@@ -1,0 +1,37 @@
+Hotel management database
+	
+Tables :
+			admin:
+				username		(varchar 20)
+				password		(varchar 20)
+
+			room :
+					room_id		(int primary key auto increment)
+					room_number	(int)
+					room_type	(varchar 20)
+					room_price	(int)
+					status		(enum 'active','inactive')
+
+			customer:
+					cid			(int primary key auto increment)
+					fname		(varchar 20)
+					lname		(varchar 20)
+					gender		(enum 'male','female''other')	
+					address		(varchar 50)
+					city		(varchar 20)
+					state		(varchar 20)
+					nationality	(varchar 20)
+					email		(varchar 20)
+					phone		(int)
+
+
+			booking:
+					bid			(int primary key auto increment)
+					cid			(int)
+					room_id		(int)
+					status 		(enum 'not_confirm','confirm','checkin','checkout')
+					check_in	(varchar 20)
+					check_out	(varchar 20)
+					total_hours	(int)
+					amount		(int)
+

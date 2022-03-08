@@ -1,0 +1,34 @@
+Todo list Database  name(todo_list)
+		
+	Table name : 
+
+			admin : 
+				id			(int primary key auto increment)
+				admin 		(varchar 30) 
+				password	(varchar 10)
+
+			user:
+
+				uid			(int primary key auto increment)
+				fname		(varchar 20)
+				lname		(varchar 20)
+				gender		(enum 'male','female')
+				dob			(date)
+				phone		(varchar)
+				city		(varchar 20)
+				state		(varchar 20)
+				email		(varchar 30)
+				password	(varchar 20)
+				status		(active,inactive)
+				create_date	(date)  
+
+			tasks:
+
+				tid (int primary key auto increment)
+				uid	(int)
+				task_name (varchar 50)
+				date 	(date)
+				time	(time)
+				description (varchar 150)
+				create_date
+				status (enum 'active','cancel','complete')

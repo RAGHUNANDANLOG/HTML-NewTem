@@ -1,0 +1,14 @@
+W_ID	W_Name		No.of_Beds
+W101	Ward-1		1
+W102	Ward-2		1
+W103	Ward-3		3
+W104	Ward-4		2
+W105	Ward-5		1
+W106	PaediaticI.C.U	5
+W107	Oncology	4
+W108	Ward-6		3
+W109	Neurology	2
+W110	Ward-7		6
+W101	TESt		5
+W112	Ward-9		4
+W113	Ward-8		3
